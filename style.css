@@ -69,21 +69,6 @@ input, textarea, select, button {
     font-size: 0.9rem;
 }
 
-.menu-hamburguesa {
-    display: block;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-.menu-hamburguesa__icono {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #ffffff;
-    margin: 5px 0;
-}
-
 /* ------------------------------ Sección Presentación ------------------------------*/
 
 .presentacion{
@@ -480,11 +465,7 @@ input, textarea, select, button {
         font-size: 1rem;
     }
 
-    .menu-hamburguesa {
-        display: block;
-    }
-
-    .presentacion{
+    .presentacion {
         display: flex;
         flex-direction: row-reverse;
         padding-top: 30px;
@@ -520,13 +501,6 @@ input, textarea, select, button {
 
     .navegacion__elemento a {
         font-size: 1.1rem;
-    }
-
-    .menu-hamburguesa {
-        display: none;
-        background: none;
-        border: none;
-        cursor: pointer;
     }
 
     .cabecera__logo {
