@@ -17,6 +17,9 @@
     <header class="cabecera">
         <img class="cabecera__logo" src="assets/logo_ajdiseno.png" alt="Logo">
         <h1 class="cabecera__titulo"></h1>
+        <button class="menu-hamburguesa" aria-label="Abrir menú">
+            <span class="menu-hamburguesa__icono"></span>
+        </button>
         <nav class="navegacion">
             <ul class="navegacion__lista">
                 <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
@@ -36,9 +39,9 @@
             <h2 class="presentacion__titulo">Mi pasión por el diseño comenzó hace más de 18 años, cuando decidí formarme como técnico en diseño gráfico publicitario. </h2>
             <p class="presentacion__subtitulo">Desde entonces, he complementado mi trayectoria con estudios como tecnólogo y diversos cursos de especialización en áreas como branding, edición de videos, animación 2D, diseño y desarrollo web. Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
             <ul class="redes">
-                <li class="redes__img"><a href="">Github <img src="assets/arrow.png" alt="Flecha"></a></li>
-                <li class="redes__img"><a href="">Linkedin <img src="assets/arrow.png" alt="Flecha"></a></li>
-                <li class="redes__img"><a href="">Behance <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="https://github.com/ajalejo983" target="_blank">Github <img src="assets/arrow_w.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="https://www.linkedin.com/in/ajalejandro" target="_blank">Linkedin <img src="assets/arrow_w.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="https://www.behance.net/diseno_ajalejo983" target="_blank">Behance <img src="assets/arrow_w.png" alt="Flecha"></a></li>
             </ul>
         </div>
     </section>
@@ -57,28 +60,28 @@
         <h2 class="habilidades__titulo">Habilidades</h2>
         <ul class="habilidades__lista">
             <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/html.png" alt="HTML">
+                <img class="habilidades__icono" src="assets/logo_html5.png" alt="logo HTML 5">
                 <p class="habilidades__nombre">HTML 5</p>
             </li>
             <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/js_icon.png" alt="JavaScript">
+                <img class="habilidades__icono" src="assets/logo_js.png" alt="JavaScript">
                 <p class="habilidades__nombre">JavaScript</p>
             </li>
             <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/php_icon.png" alt="PHP">
-                <p class="habilidades__nombre">PHP</p>
-            </li>
-            <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/nodejs_icon.png" alt="Node.js">
-                <p class="habilidades__nombre">Node.js</p>
-            </li>
-            <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/react_icon.png" alt="React">
-                <p class="habilidades__nombre">React</p>
-            </li>
-            <li class="habilidades__elemento">
-                <img class="habilidades__icono" src="assets/css_icon.png" alt="CSS">
+                <img class="habilidades__icono" src="assets/logo_css.png" alt="PHP">
                 <p class="habilidades__nombre">CSS</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/logo_wordpress.png" alt="Node.js">
+                <p class="habilidades__nombre">WordPress</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/logo_joomla.png" alt="React">
+                <p class="habilidades__nombre">Joomla</p>
+            </li>
+            <li class="habilidades__elemento">
+                <img class="habilidades__icono" src="assets/logo_adobe.png" alt="CSS">
+                <p class="habilidades__nombre">Adobe</p>
             </li>
         </ul>
     </section>
@@ -87,29 +90,17 @@
     <section class="aficiones" id="aficiones">
         <h2 class="aficiones__titulo">Aficiones</h2>
         <ul class="aficiones__lista">
-            <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/skate_icon.png" alt="Patinaje">
-                <p class="aficiones__nombre">Patinaje</p>
-            </li>
-            <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/guitar_icon.png" alt="Tocar bajo">
-                <p class="aficiones__nombre">Tocar bajo</p>
-            </li>
-            <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/headphones_icon.png" alt="Oír música">
-                <p class="aficiones__nombre">Oír música</p>
-            </li>
-            <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/tv_icon.png" alt="Ver series">
+            <li class="aficiones__elemento__series">
                 <p class="aficiones__nombre">Ver series</p>
             </li>
-            <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/forkspoon_icon.png" alt="Cocinar">
-                <p class="aficiones__nombre">Cocinar</p>
+            <li class="aficiones__elemento__cocinar">
+                <p class="aficiones__nombre">cocinar</p>
             </li>
-            <li class="aficiones__elemento">
-                <img class="aficiones__icono" src="assets/camera_icon.png" alt="Tomar fotos">
-                <p class="aficiones__nombre">Tomar fotos</p>
+            <li class="aficiones__elemento__videojuegos">
+                <p class="aficiones__nombre">Video juegos</p>
+            </li>
+            <li class="aficiones__elemento__ciclismo">
+                <p class="aficiones__nombre">Montar bici</p>
             </li>
         </ul>
     </section>
@@ -119,24 +110,24 @@
         <h2 class="formacion__titulo">Formación académica</h2>
         <ul class="formacion__lista">
             <li class="formacion__elemento">
-                <img class="formacion__icono" src="assets/ufpr_logo.png" alt="UFPR">
+                <img class="formacion__icono" src="assets/logo_incap.png" alt="INCAP">
                 <div>
-                    <h3 class="formacion__nombre">Análisis de datos</h3>
-                    <p class="formacion__detalle">2018 - UFPR</p>
+                    <h3 class="formacion__nombre">Tecnólogo en Diseño Gráfico y Publicitario</h3>
+                    <p class="formacion__detalle">2008 - INCAP</p>
                 </div>
             </li>
             <li class="formacion__elemento">
-                <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
+                <img class="formacion__icono" src="assets/logo_cide.png" alt="CIDE">
                 <div>
-                    <h3 class="formacion__nombre">Formación en UX Design</h3>
-                    <p class="formacion__detalle">2019 - Alura</p>
+                    <h3 class="formacion__nombre">Técnico en Comunicación Gráfica</h3>
+                    <p class="formacion__detalle">2016 - CIDE</p>
                 </div>
             </li>
             <li class="formacion__elemento">
-                <img class="formacion__icono" src="assets/ufrj_logo.png" alt="UFRJ">
+                <img class="formacion__icono" src="assets/alura_logo.png" alt="ALURA">
                 <div>
-                    <h3 class="formacion__nombre">Posgrado en diseño</h3>
-                    <p class="formacion__detalle">En curso - UFRJ</p>
+                    <h3 class="formacion__nombre">Desarrollo Web</h3>
+                    <p class="formacion__detalle">En curso - ALURA</p>
                 </div>
             </li>
         </ul>
@@ -146,25 +137,52 @@
     <section class="proyectos" id="proyectos">
         <h2 class="proyectos__titulo">Experiencia Profesional</h2>
         <div class="proyectos__contenedor">
-            <h3 class="proyectos__nombre">Título de la Experiencia</h3>
-            <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
+            <h3 class="proyectos__nombre">Encriptador de texto</h3>
+            <p class="proyectos__descripcion">Desarrollo con código html, css y javascript en el cual consistia en crear un encriptador de texto, el usuario ingresa un texto y la plataforma se lo devuelve encriptado y de la misma forma la plataforma puede desencriptar ese texto.</p>
+            <iframe class="proyecto__embebido" src="https://ajalejo983.github.io/challenge-encriptador-de-texto/" 
+        width="90%" 
+        height="500px" 
+        frameborder="20" 
+        allowfullscreen>
+        </iframe>
+        <p class="boton__repositorio"><a href="https://ajalejo983.github.io/challenge-encriptador-de-texto/" target="_blank" >Ver Demo</a></p>
+        <p class="boton__demo"><a href="https://github.com/ajalejo983/challenge-encriptador-de-texto.git" target="_blank" >Ver repositorio</a></p>
         </div>
+        <!--
         <div class="proyectos__contenedor">
             <h3 class="proyectos__nombre">Título de la Experiencia</h3>
             <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt quisquam unde repudiandae fugiat, earum temporibus!</p>
         </div>
+    -->
     </section>
 
     <!-- Sección de Contacto -->
     <section class="contacto" id="contacto">
+        <div class="imagen__contacto">
+            <img src="assets/img-contacto.png" alt="imagen contactenos">
+        </div>
+        <div class="formulario">
         <h2 class="contacto__titulo">Contacto</h2>
-        <form class="contacto__formulario">
-            <input class="contacto__campo" type="text" placeholder="Nombre">
-            <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
-            <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
-            <button class="contacto__boton" type="submit">Enviar</button>
+        <p class="contacto__parrafo">¿Quieres contactarme?<br />Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.</p>
+        <form class="contacto__formulario" novalidate>
+            <input class="contacto__campo" type="text" placeholder="Nombre" name="nombre" required maxlength="50" pattern="[A-Za-zÀ-ÿ\s]+" title="El nombre solo debe contener letras y espacios. Máximo 50 caracteres">
+            
+            <input class="contacto__campo" type="email" placeholder="Correo Electrónico" name="correo" required title="Por favor, introduce un correo electrónico válido.">
+            
+            <input class="contacto__campo" type="text" placeholder="Asunto" name="asunto" required minlength="4" maxlength="50" title="El asunto debe tener entre 4 y 50 caracteres.">
+            
+            <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje" name="mensaje" required minlength="10" maxlength="300" title="El mensaje debe tener al menos 10 caracteres y máximo 300 caracteres."></textarea>
+            
+            <button class="contacto__boton" type="submit">Enviar Mensaje</button>
         </form>
+        </div>
     </section>
+
 </body>
+
+<footer>
+    <p class="texto__footer">Desarrollado por AJDISEÑO</p>
+</footer>
     <script src="script.js"></script>
+
 </html>
