@@ -462,7 +462,7 @@ input, textarea, select, button {
     }
 
     .cabecera__logo {
-        max-width: 100px;
+        max-width: 150px;
     }
 
     .cabecera__titulo {
@@ -483,6 +483,31 @@ input, textarea, select, button {
     .menu-hamburguesa {
         display: block;
     }
+
+    .presentacion{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 30px;
+    }
+
+    .presentacion__titulo .presentacion__subtitulo .redes{
+        max-width: 40%;
+        padding-left: 60px;
+    }
+
+    .presentacion__foto {
+        max-width: 50%;
+    }
+
+    .habilidades__elemento{
+        width: 200px;
+        margin-bottom: 20px;
+    }
+
+    .contacto__campo{
+        width: 100%;
+    }
+
 }
 
 /* Pantallas grandes */
@@ -511,11 +536,12 @@ input, textarea, select, button {
     .presentacion{
         display: flex;
         flex-direction: row-reverse;
-        padding-top: 75px;
+        padding-top: 50px;
+        padding-left: 80px;
     }
 
     .presentacion__titulo .presentacion__subtitulo .redes{
-        max-width: 45%;
+        max-width: 30%;
         padding-left: 120px;
     }
 
